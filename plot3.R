@@ -1,5 +1,3 @@
-setwd("C:/Users/xrma/desktop")
-
 #preprocessing data
 library(lubridate)
 library(dplyr)
