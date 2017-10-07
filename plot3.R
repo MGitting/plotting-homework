@@ -1,7 +1,7 @@
 #preprocessing data
 library(lubridate)
 library(dplyr)
-d <- read.table("1.txt",header=TRUE,sep=";")
+d <- read.table("household_power_consumption.txt",header=TRUE,sep=";")
 cDate <- as.character(d$Date)
 dDate <- dmy(cDate)
 d <- d %>% mutate(Date=dDate)
